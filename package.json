@@ -1,0 +1,25 @@
+{
+  "name": "alexmascension-jekyll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jekyll serve",
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmascension/alexmascension-jekyll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmascension/alexmascension-jekyll/issues"
+  },
+  "homepage": "https://github.com/alexmascension/alexmascension-jekyll#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
